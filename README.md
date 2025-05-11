@@ -1,11 +1,11 @@
-# 🔐 Cybersecurity Job Market Analytics – Final Year Project
+# Cybersecurity Job Market Analytics – Final Year Project
 
 This project explores the UK cybersecurity job market using real data from CWJobs.co.uk.  
 It focuses exclusively on identifying the most in-demand **technical skills** by analyzing job descriptions.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Automate job scraping using Python
 - Extract and clean technical skills from job descriptions
@@ -14,7 +14,7 @@ It focuses exclusively on identifying the most in-demand **technical skills** by
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - Python (`selenium`, `pandas`, `matplotlib`)
 - CWJobs.co.uk (job data source)
@@ -24,7 +24,7 @@ It focuses exclusively on identifying the most in-demand **technical skills** by
 
 ---
 
-## 🧠 Reflections
+## Reflections
 
 - CWJobs data is dynamic, real-world, and sometimes incomplete
 - Some skills are general (like "Incident Response"), others tool-specific (like "Azure", "Splunk")
@@ -34,7 +34,7 @@ It focuses exclusively on identifying the most in-demand **technical skills** by
 
 ---
 
-## 🤖 AI Assistance Disclosure
+## AI Assistance Disclosure
 
 > ChatGPT was used as a support tool to assist with:
 > - Writing and debugging Python scripts  
