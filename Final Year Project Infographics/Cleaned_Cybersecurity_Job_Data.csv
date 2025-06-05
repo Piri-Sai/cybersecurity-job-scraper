@@ -1,5 +1,5 @@
-Job Title,Company,Location,Description
-Cyber Security Project Manager,,London,"6 month contract
+,Job Title,Company,Location,Description,Extracted Skills,Cleaned Skills
+0,Cyber Security Project Manager,,London,"6 month contract
 £575-650 per day
 Inside IR35
 Remote with occasional trips to London.
@@ -14,20 +14,20 @@ Solid understanding of cyber security principles and technologies.
 Experience in complex, global enterprise environments.
 Familiarity with industry standards and frameworks.
 Excellent leadership, communication, and problem-solving skills.
-Experience with enterprise-level security tools and compliance-driven environments."
-Cyber Security Engineer,,UK,"3+ years’ experience in a Cyber Security role
+Experience with enterprise-level security tools and compliance-driven environments.","Dlp, Soc","DLP, SOC"
+1,Cyber Security Engineer,,EC2,"3+ years’ experience in a Cyber Security role
 Extensive experience with cloud security and DevSecops framework
 A background working with various AWS services and an understanding of how they interact with security technologies
 Extensive knowledge of security principles, network protocols and cryptography
 Extensive experience with Physical and virtual firewalls as well as core network security technologies. (Zscaler, VPCs, IDS/IPS)
 Good understanding of security standards and frameworks.
-Good understanding of scripting, automation and monitoring tools (SIEM)"
-Cyber Security Engineer,,Glasgow,"Vast experiene in the deployment and confiugration of SIEM toolings particularly SPLUNK
+Good understanding of scripting, automation and monitoring tools (SIEM)","Aws, Cloud Security, Ids, Ips, Network Security, Siem","AWS, CLOUD SECURITY, IDS, IPS, NETWORK SECURITY, SIEM"
+2,Cyber Security Engineer,,Glasgow,"Vast experiene in the deployment and confiugration of SIEM toolings particularly SPLUNK
 Strong understanding of how to utilise SOAR platforms, ideally LogRhythm or Fortinet
 Undersranding of securing and extending the CI/CD pipelines
 Proven history working with and dealing with clients to enhance their cyber security capabilities
-Strong understanding of firewalls"
-Cyber Security Analyst - 6 Month Contract,,London,"Respond to alerts and requests as part of a security operations team and ticketing system
+Strong understanding of firewalls","Ci/Cd, Logrhythm, Siem, Splunk","CI/CD, LOGRHYTHM, SIEM, SPLUNK"
+3,Cyber Security Analyst - 6 Month Contract,,London,"Respond to alerts and requests as part of a security operations team and ticketing system
 Carry out regular proactive security health checks and follow up on any anomalies
 Respond to alerts escalated from our 24/7 SOC
 Provide technical support during security incidents
@@ -40,29 +40,8 @@ Hands-on experience in incident response, triage, and investigation
 Cloud platform experience, particularly Azure and Entra ID.
 Strong knowledge of SIEM, EDR, vulnerability management and threat intelligence platforms
 Knowledge of security frameworks (e.g., Mitre ATT&CK, NIST CSF, ISO 27001, CIS Controls
-Self-motivated, proactive problem-solver with a strategic mindset"
-IT Project Manager - Cyber Security,,CF1,"Lead IT projects, ensuring timely and budget-compliant delivery.
-Align business requirements with solutions.
-Manage external tender processes.
-Shape project business cases, including summaries, costs, risks, timelines, and financial forecasts.
-Implement project management, controlling delivery to contractual agreements, and managing stakeholders and suppliers.
-Previous IT delivery experience in project and portfolio management.
-Expertise in project implementation and financial ownership.
-Strong contractual and commercial awareness.
-Proficiency in process and governance design and implementation.
-Skilled in vendor and customer management.
-Excellent problem-solving, flexibility, teamwork, and communication skills.
-Degree-level education.
-Prince 2 Practitioner or equivalent project management qualification (highly desirable).
-ITIL experience/qualification (desirable).
-Hybrid working
-25 days holiday + bank holidays
-10% employer pension contribution
-Annual Salary reviews
-Dedicated learning and development programmes
-Free parking, cycle to work scheme
-Life Insurance - 14x salary"
-Global Cyber Security Manager,,London,"Location: Hybrid (London 3 days, Remote 2 days)
+Self-motivated, proactive problem-solver with a strategic mindset","Azure, Incident Response, Iso 27001, Nist, Siem, Soc, Threat Intelligence","AZURE, INCIDENT RESPONSE, ISO 27001, NIST, SIEM, SOC, THREAT INTELLIGENCE"
+5,Global Cyber Security Manager,,EC2N,"Location: Hybrid (London 3 days, Remote 2 days)
 Job Type: Full-time
 Salary: Competitive gross pay circa £80,000 + annual performance bonus of 10% of base salary
 Strategy and Roadmap Responsibilities:
@@ -95,8 +74,8 @@ Proficiency in cybersecurity technologies and systems, such as firewalls, intrus
 Desirable certifications: CISSP, CISA, CISM.
 Generous health and life insurance.
 Annual holidays and tax-saving pension contributions.
-Opportunity to work in a dynamic, innovative environment with a strong emphasis on personal and professional growth."
-Cyber Security Engineer,,The City,"Previous experience within a similar role is vital for this position
+Opportunity to work in a dynamic, innovative environment with a strong emphasis on personal and professional growth.","Access Control, Iso 27001, Nist, Penetration Testing, Siem, Vulnerability Assessment","ACCESS CONTROL, ISO 27001, NIST, PENETRATION TESTING, SIEM, VULNERABILITY ASSESSMENT"
+6,Cyber Security Engineer,,London,"Previous experience within a similar role is vital for this position
 Must have worked with the NHS’s DSPT (Data Security Protection Toolkit)
 Experience of working either within a Cyber Essentials Plus environment, or helping a business secure Cyber Essentials plus certification
 Extensive IT Infrastructure background and support
@@ -112,56 +91,16 @@ Ensuring the correct technology is used when developing and changing systems
 Ensuring that all systems are efficient and effective, reviewing the current process to understand if there are better ways to complete a task.
 Building reports and provide regular updates to the Head of IT, regarding performance and Cyber Security Risks
 Providing support on the procurement process for IT equipment, raising Purchase Orders and liaising with suppliers.
-Monitoring the Azure alerts and inform the Head of IT of any potential incidents."
-Cyber Security Engineer - Senior,,UK,"A recognised information governance or data security qualification
-At least 3 years' experience in a similar role
-Familiarity with frameworks and standards like ISO, MCSS and NCSC
-Demonstrate effective collaboration skills with stakeholders and other IT professionals
-Excellent communication and interpersonal skills
-Great problem-solving and decision-making abilities
-Able to identify risks and potential vulnerabilities
-A thorough understanding of IP networking, modern infrastructure management, Microsoft cloud technologies and hybrid architectures
-Ongoing training and support
-Company Profit Share (first £3,600 is tax free)
-22 days annual leave plus bank holiday (increasing with length of service)
-Additional paid leave for your Birthday
-Company performance-based additional paid leave
-Company sick pay policy
-Pension Scheme
-Private Medical Insurance (including dental)
-Free Parking
-Hybrid Working
-Progression opportunities
-Fresh fruit, occasional pizza and a posh coffee machine!"
-Cyber Security Engineer - Senior,,Lord's Hill,"A recognised information governance or data security qualification
-At least 3 years' experience in a similar role
-Familiarity with frameworks and standards like ISO, MCSS and NCSC
-Demonstrate effective collaboration skills with stakeholders and other IT professionals
-Excellent communication and interpersonal skills
-Great problem-solving and decision-making abilities
-Able to identify risks and potential vulnerabilities
-A thorough understanding of IP networking, modern infrastructure management, Microsoft cloud technologies and hybrid architectures
-Ongoing training and support
-Company Profit Share (first £3,600 is tax free)
-22 days annual leave plus bank holiday (increasing with length of service)
-Additional paid leave for your Birthday
-Company performance-based additional paid leave
-Company sick pay policy
-Pension Scheme
-Private Medical Insurance (including dental)
-Free Parking
-Hybrid Working
-Progression opportunities
-Fresh fruit, occasional pizza and a posh coffee machine!"
-"Cyber Security Engineer, COR7186A",,London,"25 days holiday
+Monitoring the Azure alerts and inform the Head of IT of any potential incidents.","Azure, Cyber Essentials","AZURE, CYBER ESSENTIALS"
+9,"Cyber Security Engineer, COR7186A",,London,"25 days holiday
 Pension
 Flexible working/working from home
 Amazing opportunities for training and progression
 Prior commercial experience as a Cyber Security Engineer or Cyber Security Analyst, ideally within a similar SME-sized organisation
 Hands-on experience in the management of IDS/IPS, Firewalls, VPN, EDR/XDR, mail filtering and other security products
 Experience of Security Information Event Management (SIEM) tools
-Any experience or knowledge of ISO27001 as well as with penetration testing/vulnerability scanning would be highly advantageous"
-Cyber Security Analyst,,London,"Previous experience within a similar role, ideally at least 3 years within Cyber
+Any experience or knowledge of ISO27001 as well as with penetration testing/vulnerability scanning would be highly advantageous","Ids, Ips, Penetration Testing, Siem","IDS, IPS, PENETRATION TESTING, SIEM"
+10,Cyber Security Analyst,,London,"Previous experience within a similar role, ideally at least 3 years within Cyber
 Vulnerability Management experience
 Strong SIEM experience, any vendor product is ok with a preference for ManageEngine or FortiAnalyzer
 Ability to work independently on both maintenance and project based work
@@ -183,8 +122,8 @@ Preparation of cyber security submissions and reporting for RIIO, reviewing proj
 Initiating and effectively managing a wide group of internal and external stakeholder relationships
 Demonstrating and contributing to building a customer focused, dynamic and high performing Governance team to enable Security to perform effectively and efficiently
 Contributing where required to leading on security related Incident response and analysis with other members of the organisation
-Act as a point of contact to the organization for security related queries providing guidance and taking appropriate action as required"
-Cyber Security Lead,,DN40,"Manage and enhance IT security systems across hardware, software, and network infrastructure.
+Act as a point of contact to the organization for security related queries providing guidance and taking appropriate action as required","Aws, Azure, Incident Response, Network Security, Siem","AWS, AZURE, INCIDENT RESPONSE, NETWORK SECURITY, SIEM"
+11,Cyber Security Lead,,DN40,"Manage and enhance IT security systems across hardware, software, and network infrastructure.
 Ensuring the security and integrity of IT operations.
 Oversee security for Windows 11, Windows Server (2016-2022), Linux, Microsoft 365, and networking systems including firewalls, switches, and WAPs.
 Develop and maintain security policies in line with ISO27001 and Cyber Essentials.
@@ -204,8 +143,8 @@ Discretionary annual bonus
 Hybrid working after 3-6 months could be available
 This is a pivotal role in shaping our cyber security strategy and protecting their IT infrastructure.
 The opportunity to work on high-level security projects with a global impact.
-A collaborative and supportive work environment where your expertise is valued."
-Graduate CE & I Engineer with Digital and Cyber Security,,NE1,"Develop technical skills and specialist expertise in your particular discipline.
+A collaborative and supportive work environment where your expertise is valued.","Cyber Essentials, Linux, Windows","CYBER ESSENTIALS, LINUX, WINDOWS"
+12,Graduate CE & I Engineer with Digital and Cyber Security,,NE1,"Develop technical skills and specialist expertise in your particular discipline.
 Be supported through non-technical training, emphasising personal growth and development of consulting skills.
 Take on real responsibilities from day one, working on various exciting and impactful projects across different industry sectors.
 Work as part of a diverse team with opportunities to travel through involvement in international projects.
@@ -233,8 +172,8 @@ Self-motivated and eager to learn, with a proactive approach to work.
 Clean UK driving license.
 Familiarity with cybersecurity principles, including system hardening, vulnerability assessments, and intrusion detection.
 Knowledge of relevant cybersecurity frameworks and standards, such as IEC 62443 and NIST.
-Experience working in a high-hazard industry (e.g., oil, gas, chemicals) with exposure to Distributed Control Systems (DCS) and SCADA."
-OT Cyber Security Engineer,,Reading,"Strong experience in OT architecture or consultancy.
+Experience working in a high-hazard industry (e.g., oil, gas, chemicals) with exposure to Distributed Control Systems (DCS) and SCADA.",Nist,NIST
+13,OT Cyber Security Engineer,,Belfast,"Strong experience in OT architecture or consultancy.
 Solid understanding of IT and OT security risks and compliance frameworks (NIST, IEC 62443, etc.).
 Hands-on experience with OT-specific protocols (Modbus, DNP3, OPC) and industrial control systems.
 Proven track record delivering cybersecurity strategies, risk assessments, and security designs.
@@ -250,8 +189,8 @@ Salary up to £90k
 Hybrid working
 Paid expenses
 25days holidays plus bank holidays
-And more!"
-Senior Cyber Security Engineer,,S1,"Working with clients on Splunk, LogRhythm, Qradar CrowdStrike and Sentinel
+And more!",Nist,NIST
+14,Senior Cyber Security Engineer,,S1,"Working with clients on Splunk, LogRhythm, Qradar CrowdStrike and Sentinel
 Creating use cases, playbooks and runbooks on behalf of this organisation's clients
 Working with this organisation's clients to design, configure and integrate SIEM and XDR platforms
 Advising on security engineering best practice to clients
@@ -269,17 +208,8 @@ Internal progression opportunities
 25 days annual leave (plus bank holidays)
 Generous pension Scheme
 Flexible working arrangements
-Company specific benefits"
-Cyber Security Architect,,UK,"Lead integration of security tools such as Qualys (UK) for vulnerability management and CyberArk for privileged access security.
-Implement and support TrueSight for infrastructure and security monitoring.
-Ensure compliance and governance across multi-cloud environments using InsightCloudSec.
-Apply architectural governance using PRISM and contribute to enterprise architecture frameworks.
-Minimum 7+ years of experience in cyber security, with at least 3 years in a security architecture or lead design role.
-Experience with tools such as: Qualys, TrueSight (BMC), Microsoft Security Suite, InsightCloudSec PRISM, CyberArk.
-Strong understanding of cloud security principles (AWS, Azure, GCP).
-Telecommunications background."
-Network Cyber Security Assurance Engineers,,Somerset,
-Cyber Security Lead,,NG11,"Lead cyber risk assessment activities across IT and OT environments, correlating outputs into strategic risk tracking.
+Company specific benefits","Logrhythm, Siem, Splunk","LOGRHYTHM, SIEM, SPLUNK"
+16,Cyber Security Lead,,NG11,"Lead cyber risk assessment activities across IT and OT environments, correlating outputs into strategic risk tracking.
 Manage the cyber security risk toolkit, including threat modelling, attack trees, and scenario-based exercises.
 Develop and implement cyber security policies, processes, and staff training aligned with Secure by Design principles.
 Oversee first-line security operations, including outsourced 24/7 SOC management.
@@ -287,30 +217,15 @@ Define and manage cyber threat intelligence requirements.
 Provide cyber risk consultancy for business development projects, ensuring regulatory compliance.
 Contribute to supply chain risk management, assessing supplier security risks.
 Act as Deputy NIS Reporting Officer (NRO), ensuring compliance with NCSC's Cyber Assessment Framework (CAF) and NIS regulations.
-Support cyber incident response efforts, managing containment, remediation, and business continuity."
-"Head of Cyber Security and Infrastructure, Part remote",,EC2,
-"Head of Cyber Security, Professional Services, Part Remote",,London,
-Cyber Security (GRC) Principal,,Leeds,"Own the Information Security Assurance framework and programme.
-Design and perform reviews to provide assurance of information security controls effectiveness.
-Be responsible for establishing and implementing the information security and technology risk management programme.
-Identify, engage and manage 3rd party organisations to ensure appropriate security assurance activities are conducted.
-Lead on Secure by Design activities to ensure business and technical changes meet security requirements.
-Liaise with other bodies to contribute to the maturing of cyber security practices across the Health and Social care industry.
-Proven experience in a GRC Analyst role
-Experience of mentoring or managing team members
-Strong knowledge of Security controls across Microsoft based technologies, Endpoints, IdAM, Networks, Applications, Email and Cloud.
-Experience of authoring governance documentation (standards, policies, reporting, proposals, analysis).
-Experience of delivering culture, training and awareness programmes.
-Experience of working with Senior stakeholder to champion the security agenda."
-Pre-Sales Consultant - Cyber Security and Networking Solutions,,Ancoats,
-Cyber Security Consultant,,London,"3+ years’ experience in complex IT environments with a strong consulting background.
+Support cyber incident response efforts, managing containment, remediation, and business continuity.","Incident Response, Risk Assessment, Soc, Threat Intelligence","INCIDENT RESPONSE, RISK ASSESSMENT, SOC, THREAT INTELLIGENCE"
+21,Cyber Security Consultant,,St Pancras,"3+ years’ experience in complex IT environments with a strong consulting background.
 Familiarity with cybersecurity standards, frameworks, and certifications (e.g., HMG SPF, ISO27001).
 Experience working on public sector programs.
 Knowledge of identity management, public key infrastructure, SIEM, cryptography, firewalls, and vulnerability scanning.
 Understanding of enterprise security architectures (PCiIAA, SABSA, TOGAF preferred).
 A security-focused master’s degree or a STEM degree is highly desirable.
-Eligibility for UK Security Clearance is essential."
-Cyber Security Engineer - 6 Month Contract,,London,"Manage and main security tooling and infrastructure, including health, licence, capacity, performance and support roadmap and upgrade decisions.
+Eligibility for UK Security Clearance is essential.","Identity Management, Siem","IDENTITY MANAGEMENT, SIEM"
+22,Cyber Security Engineer - 6 Month Contract,,London,"Manage and main security tooling and infrastructure, including health, licence, capacity, performance and support roadmap and upgrade decisions.
 Act as 2nd line team within Cyber Security, supporting 1st line with incidents and any change to tooling and processes.
 Recommend and drive effective changes to enhance defence and response procedures
 Investigate and resolve issues with key security platforms and services
@@ -325,11 +240,11 @@ Security tooling experience across protection, detection and response platforms
 Experience with EDR, SIEM, vulnerability management solutions and threat intelligence platforms
 Hands-on experience in implementing and testing new security features, planning security tooling upgrades, troubleshooting, and responding to security incidents.
 Strong communications skills and experience in presenting and communicating to both technical and non-technical stakeholders
-Proven experience in managing security tooling and solutions."
-Cyber Security Engineer,,Birmingham,"A solid background in IT security, with hands-on experience protecting systems, networks, and cloud environments.
+Proven experience in managing security tooling and solutions.","Siem, Soc, Threat Intelligence","SIEM, SOC, THREAT INTELLIGENCE"
+23,Cyber Security Engineer,,Birmingham,"A solid background in IT security, with hands-on experience protecting systems, networks, and cloud environments.
 A proactive mindset, with a drive to identify, own, and solve security challenges end-to-end.
 Strong technical skills across areas like threat detection, vulnerability management, identity and access control, and incident response.
 Familiarity with a range of security tools and platforms—such as SIEM, EDR, firewalls, and cloud security solutions.
 A clear understanding of security frameworks and best practices (e.g., NIST, ISO 27001, PCI).
 The ability to translate complex risks into practical actions and communicate them effectively across technical and non-technical teams
-A collaborative approach, with the confidence to contribute ideas and the openness to learn from others."
+A collaborative approach, with the confidence to contribute ideas and the openness to learn from others.","Access Control, Cloud Security, Incident Response, Iso 27001, Nist, Siem","ACCESS CONTROL, CLOUD SECURITY, INCIDENT RESPONSE, ISO 27001, NIST, SIEM"
