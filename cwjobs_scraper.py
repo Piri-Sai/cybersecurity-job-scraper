@@ -4,8 +4,10 @@ import re
 import pandas as pd
 from datetime import datetime
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import NoSuchElementException, TimeoutException
 import undetected_chromedriver as uc
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 # Set up undetected Chrome
 options = uc.ChromeOptions()
@@ -15,11 +17,20 @@ driver = uc.Chrome(options=options)
 # CWJobs search URL
 start_url = 'https://www.cwjobs.co.uk/jobs/cyber-security/in-united-kingdom'
 driver.get(start_url)
-time.sleep(5)
+
+# Wait for page to load job cards
+try:
+    WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.CSS_SELECTOR, "a[data-testid='job-item-title']"))
+    )
+except TimeoutException:
+    print("❌ Timeout: Job listings not found.")
+    driver.quit()
+    exit()
 
 # Scrape job links
 job_links = []
-job_cards = driver.find_elements(By.CSS_SELECTOR, "div.res-vurnku a")
+job_cards = driver.find_elements(By.CSS_SELECTOR, "a[data-testid='job-item-title']")
 print(f"🔍 Found {len(job_cards)} job cards")
 
 for card in job_cards:
@@ -69,9 +80,9 @@ with open(filename, mode='w', newline='', encoding='utf-8') as file:
 
 driver.quit()
 
-# ========================
+# ===============================
 # Skill extraction section
-# ========================
+# ===============================
 
 print("\n🔍 Extracting skills...")
 
@@ -84,22 +95,19 @@ skills_list = [
     "access control", "cyber essentials", "SOC analyst", "OWASP", "threat hunting", "zero trust",
     "CIS benchmarks", "network security", "cloud security",
     "Python", "Java", "C#", "JavaScript", "PowerShell", "Bash", "Linux", "Windows", "AWS", "Azure",
-    "GCP", "Docker", "Kubernetes", "Terraform", "Ansible", "CI/CD", "DevOps", "Git", "Jenkins",
-    "SQL", "NoSQL", "Splunk", "ELK", "LogRhythm", "Tenable", "Nessus", "Qualys", "Burp Suite",
+    "Docker", "Kubernetes", "Terraform", "Ansible", "CI/CD", "DevOps", "Git", "Jenkins",
+    "SQL", "NoSQL", "Splunk", "ELK", "LogRhythm", "Tenable", "Nessus", "Qualys",
     "Metasploit", "Wireshark"
 ]
 
 pattern = r'\b(?:' + '|'.join(re.escape(skill) for skill in skills_list) + r')\b'
 
 def extract_skills(description):
-    if pd.isna(description):
-        return ""
-    found_skills = re.findall(pattern, description, flags=re.IGNORECASE)
-    return ', '.join(sorted(set(skill.title() for skill in found_skills)))
+    found = re.findall(pattern, description, re.IGNORECASE)
+    return ", ".join(sorted(set(found), key=lambda x: found.index(x)))
 
-df["Extracted Skills"] = df["Description"].apply(extract_skills)
+df['Extracted Skills'] = df['Description'].apply(lambda x: extract_skills(str(x)))
+skills_output = f'cwjobs_skills_extracted_{timestamp}.csv'
+df.to_csv(skills_output, index=False)
 
-output_filename = f"cwjobs_skills_extracted_{timestamp}.csv"
-df.to_csv(output_filename, index=False)
-
-print(f"\n✅ All done! Extracted skills saved to: {output_filename}")
+print(f"✅ All done! Extracted skills saved to: {skills_output}")
